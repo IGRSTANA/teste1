@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Santana portifólio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="shortcut icon" href="LogoEdt_pqqq-removebg-preview.png" type="image/x-icon">
+    <style>
+      
+    
+        @keyframes blink {
+          0%, 100% { opacity: 0; }
+          50% { opacity: 1; }
+        }
+      </style>
+</head>
+<body>
+    
+
+    <div class="menu">
+        <p id="image-menu"><img src="LogoEdt-removebg-preview.png" alt=""></p>
+        <ul>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="projetos.html">Projetos</a</li>
+            <li><a href="contato.html"><a href="">Contato</a></a></li>
+            <li><a href="Sobre_mim.html"><a href="">Sobre mim</a></a></li>
+        </ul>
+        
+      </div>
+                  
+      <script src="script.js"></script>
+  
+  
+  <div id="typed-text">
+    
+  </div>
+  <div id="rola">
+    <img src="roll.gif" alt="" id="rola">
+  </div>
+  <div id="content">
+      <h2>
+          <script >
+            // Texto que será animado
+            const text = "Olá visitante, meu nome é Igor Santana e você está no meu portifólio, seja muito bem vindo(a)!";
+            // Velocidade da digitação (em milissegundos)
+            const typingSpeed = 80;
+            // Elemento onde o texto será exibido
+            const typedTextElement = document.getElementById("typed-text");
+            // Função para animar o texto
+            function typeText() {
+              let index = 0;
+              const typeInterval = setInterval(() => {
+                typedTextElement.textContent += text[index];
+                index++;
+                if (index >= text.length) {
+                  clearInterval(typeInterval);
+                }
+              }, typingSpeed);
+            }
+            // Inicia a animação
+            typeText();
+          </script>
+          
+      </h2>
+  </div>
+  <section id="projetos">
+      <h2>Projetos</h2>
+      <ul>
+        <li><img src="png-clipart-under-construction-under-construction.png" alt="">
+        <p>Em breve</p></li>
+        <li><img src="png-clipart-under-construction-under-construction.png" alt="">
+          <p>Em breve</p></li></li>
+        <li><img src="png-clipart-under-construction-under-construction.png" alt="">
+          <p>Em breve</p></li></li>
+        <li><img src="png-clipart-under-construction-under-construction.png" alt="">
+          <p>Em breve</p></li></li>
+        <li><img src="png-clipart-under-construction-under-construction.png" alt="">
+          <p>Em breve</p></li></li>
+        <li><img src="png-clipart-under-construction-under-construction.png" alt="">
+          <p>Em breve</p></li></li>
+      </ul>
+  </section>
+
+  <section id="contatos">
+    <h3>Contatos</h3>
+    <ul>
+      <li><a href="https://www.linkedin.com/" target="_blank"><img src="linked.png" alt=""></a></li>
+      <li><a href="https://wa.me/+5581983345589" target="_blank"><img src="zap.png" alt=""></a></li>
+      <li><a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt=""></a></li>
+      <li><a href="mailto:igordesantana@live.com;" target="_blank"><img src="mail.png" alt=""></a></li>
+    </ul>
+  </section>
+
+
+  <footer>
+  <img src="LogoEdt_pqqq-removebg-preview.png" alt="">
+  </footer>
+  
+    
+    <script src="script.js"></script>
+  </body>
+</html>
