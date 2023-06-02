@@ -1,5 +1,5 @@
 #typed-text{
-    padding-top: 596px ;
+    padding-top: 496px ;
     margin: 0 auto;
     padding-left: 18%;
     padding-right: 18%;
@@ -9,64 +9,61 @@
     background-color: black;
     display: flex;
     text-align: center;
+    font-size: 35px;
     
 }
 
 body{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 25px;
     
 }
 .menu {
     position: fixed;
-    top: 0;
     width: 100%;
-    padding-top: 0x;
-    padding-bottom: 15px;
-    z-index: 999;
-    color: rgb(255, 255, 255);
-    justify-items: center;
-    text-align: center;
-    background-color: rgb(41, 15, 65);
-    
+    z-index: 9;
+    text-align: right;
+    z-index: 9;
+ 
 }
 
-.munu ul{
-    display: inline;
-    list-style-type: none;
-    padding: 0;
+.menu ul{
+    z-index: 12;        
 }
 .menu li{
-    position: relative;
-    display: inline;
-    font-weight: bolder;
-    width: 300px;
+    position:relative;
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 1%;
+    padding-right: 2%;
     list-style-type: none;
-    background-color: rgb(41, 15, 65);
-    font-size: 30px;
-
+    font-size: 150%;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-size-adjust: 100%;
+    display: inline;
+    
     
   }
 
   #image-menu{
-    padding-left: 20px;
-    padding-right: 20px;
     position: relative;
-    max-width: 100%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+    justify-content: left;
     background-color: rgb(41, 15, 65);
-    height: 240px;
+    height: 140px;
     width: auto;
-
+    border-color: aliceblue;
+    margin-bottom: -90px;
     
+  
 
 
+  }
+  #sobre_mim{
+    margin: 10%;
+    padding: 15%;
+    text-align: left;
   }
 
   #content img{
@@ -134,14 +131,21 @@ body{
     color: rgb(255, 255, 255);
     
   }
+  #contatos ul{
+    text-align: center;
+    
+  }
+
   #contatos li{
     margin: 10px;
     position: relative;
     justify-content: center;
     text-align: center;
-    padding-bottom: 80px;
-    height: 150px;
-    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
     
   }
 
@@ -162,7 +166,6 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #ffffff;
     padding-bottom: 42px;
   }
