@@ -1,9 +1,9 @@
 #typed-text{
-    padding-top: 20% ;
-    margin: 10%, auto;
+    padding-top: 45% ;
+    margin: auto;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     justify-content: center;
     position: relative;
     background-color: black;
@@ -29,7 +29,8 @@ body{
 }
 
 .menu ul{
-    z-index: 12;        
+    z-index: 12;
+    margin-top: 2rem;
 }
 .menu li{
     position:relative;
@@ -37,7 +38,7 @@ body{
     margin-right: 1%;
     padding-right: 2%;
     list-style-type: none;
-    font-size: 100%;
+    font-size: 130%;
     font-weight: bold;
     text-transform: capitalize;
     text-size-adjust: 110%;
@@ -52,7 +53,7 @@ body{
     display: flex;
     justify-content: left;
     background-color: rgb(41, 15, 65);
-    height: 110px;
+    height: 90px;
     width: auto;
     border-color: aliceblue;
     margin-bottom: -90px;
