@@ -3,7 +3,7 @@
     margin: auto;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 26%;
     justify-content: center;
     position: relative;
     background-color: black;
@@ -42,12 +42,13 @@ body{
     margin-right: 1%;
     padding-right: 2%;
     list-style-type: none;
-    font-size: 130%;
+    font-size: 80%;
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-size-adjust: 110%;
     display: inline;
     text-align: end;
+    max-width: 100%;
     
     
   }
@@ -60,17 +61,59 @@ body{
     height: 90px;
     width: auto;
     border-color: aliceblue;
-    margin-bottom: -90px;
+   
+  }
     
-  
-
+  #sobre_mim ul{
+    display: inline-flex;
+    padding: 0;
+    width:100%;
+    height: auto;
 
   }
-  #sobre_mim{
-    margin: 10%;
-    padding: 15%;
-    text-align: left;
+
+  #sobre_mim {
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
+
+
+  #sobre_mim_texto{
+    
+      justify-content: right;
+      padding-left: 15%;
+      margin-left: auto;
+      padding-right: 7%;
+      font-size: 18px;
+      box-sizing: border-box;   
+      
+      
+  }
+
+ 
+
+  #foto_eu img {
+    
+    height: auto;
+    width: 1200px;
+    max-width: 120%;
+        
+    
+  }
+  #tecnologias {
+    justify-content: right;
+    margin: 3%;
+    
+    
+  }
+  #tecnologias li {
+    margin: auto;
+    
+    
+  }
+ 
 
   #content img{
     position: relative;
@@ -87,7 +130,7 @@ body{
   text-align: center;
   list-style: none;
   padding: 0;
-  
+  max-width: 100%;
     
 
   }
@@ -95,6 +138,7 @@ body{
     
     display: inline-block;
     margin: 55px;
+    max-width: 100%;
      
      
     }
@@ -139,6 +183,8 @@ body{
   }
   #contatos ul{
     text-align: center;
+    width: auto;
+    height: 1%;
     
   }
 
@@ -152,8 +198,11 @@ body{
     margin-bottom: 20%;
     margin-left: 2%;
     margin-right: 2%;
+    max-width: 100%;
+    height: auto;
     
-  }
+    
+   }
 
   h3{
     text-align: center;
